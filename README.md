@@ -16,7 +16,7 @@ pip install fit-tool pytz requests python-dotenv
 curl -X POST https://www.strava.com/oauth/token \
 -F client_id={YOUR_CLIENT_ID}\
 -F client_secret={YOUR_CLIENT_SECRET} \
--F code=2c043efb4c98176a6db78abd86a86b8a \
+-F code={CODE} \
 -F grant_type=authorization_code
 ```
 4. Fill the ACCESS_TOKEN config in .env
