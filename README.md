@@ -1,6 +1,10 @@
 # strava_watts_calc_fit
 Convert strava analysis watts_calc data into a new fit file, so you can hold watts data in your fit file without a powermeter!
 
+## Dependencies
+```bash
+pip install fit-tool pytz requests python-dotenv
+```
 ## Usage
 1. Create a api application on your strava setting page
 2. Get a access token with scope activity:read_all 
